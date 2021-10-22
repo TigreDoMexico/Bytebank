@@ -29,7 +29,7 @@ export class NovaTransferenciaComponent {
     this.service.adicionar(values)
       .subscribe(() => {
         this.limparCampos()
-        this.router.navigateByUrl('extrato')
+        this.router.navigateByUrl('home/extrato')
       })
   }
 
