@@ -17,12 +17,10 @@ registerLocaleData(localePt, 'pt')
 
 @NgModule({
   declarations: [
-    AppComponent,
-    NovaTransferenciaComponent
+    AppComponent
   ],
   imports: [
     BrowserModule,
-    FormsModule,
     HttpClientModule,
     AppRoutingModule,
     FontAwesomeModule
