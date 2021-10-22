@@ -9,6 +9,7 @@ import { registerLocaleData } from '@angular/common';
 import localePt from '@angular/common/locales/pt'
 import { HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 registerLocaleData(localePt, 'pt')
 
@@ -22,7 +23,8 @@ registerLocaleData(localePt, 'pt')
     BrowserModule,
     FormsModule,
     HttpClientModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FontAwesomeModule
   ],
   providers: [
     { provide: LOCALE_ID, useValue: 'pt' },
