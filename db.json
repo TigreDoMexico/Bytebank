@@ -1,4 +1,11 @@
 {
+  "contas": [
+    {
+      "conta": "123-45",
+      "agencia": "0001",
+      "senha": "12345"
+    }
+  ],
   "transferencias": [
     {
       "id": "1",

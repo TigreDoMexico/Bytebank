@@ -1,1 +1,34 @@
 <h1>Bem vindo ao ByteBank</h1>
+
+<main>
+  <form (ngSubmit)="login()">
+    <h4>Login</h4>
+
+    <div>
+      <input
+        type="text"
+        placeholder="Insira a Conta"
+        name="conta"
+        [(ngModel)]="conta"
+      />
+    </div>
+    <div>
+      <input
+        type="text"
+        placeholder="Insira a Agencia"
+        name="agencia"
+        [(ngModel)]="agencia"
+      />
+    </div>
+    <div>
+      <input
+        type="password"
+        placeholder="Insira a Senha"
+        name="senha"
+        [(ngModel)]="senha"
+      />
+    </div>
+
+    <button type="submit">Entrar</button>
+  </form>
+</main>
