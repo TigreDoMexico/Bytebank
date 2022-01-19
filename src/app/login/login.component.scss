@@ -1,0 +1,36 @@
+.login_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login_container > main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  width: 30%;
+  margin: 3rem 0rem;
+  padding: 2rem;
+  border-radius: 10px;
+  background-color: var(--primary);
+
+  h1 {
+    text-align: center;
+    color: #fff;
+    margin-bottom: 2rem;
+  }
+
+  .field {
+    width: 100%;
+    margin-bottom: 1rem;
+
+    input {
+      font-size: 18px;
+      padding: 0.3rem 0.5rem;
+      border-radius: 5px;
+      border-color: #fcfcfc;
+    }
+  }
+}
